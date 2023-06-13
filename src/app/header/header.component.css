@@ -1,0 +1,85 @@
+header{
+    padding: 12px;
+    background: #553c7e;
+
+}
+menu{
+    margin-top: auto;
+
+}
+menu ul{
+
+    padding: 0%;
+    margin: 0%;
+
+}
+.menu ul li{
+    color:azure;
+    list-style-type:none;
+    display: inline-block;
+    font-size: medium;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    margin:12px;
+}
+.menu ul li:hover{
+    color: blue;
+    cursor: pointer;
+    transition:0.5s ease-in-out;
+}
+@media only screen and (max-width: 999px) {
+    .menu{
+        position: fixed;
+        top:64px;
+        right:-280px;
+        background: black;
+        height:100% ;
+        width: 280px;
+        transition: 0.5s ease-in-out;
+    }
+    .menu ul li{
+        display: block;
+        text-align: left;
+        margin: 0%;
+        padding: 10px 0 10px 26px;
+        border-bottom: #19181a;
+
+    }
+    .menu_icon{
+        display: inline-block;
+        right: 0%;
+        left: 9px;
+        position: relative;
+        top: 20px;
+
+    }
+    .menu_icon span{
+        display: block;
+        height:2px ;
+        width: 32px;
+        background: whitesmoke;
+
+
+    }
+    .menu_icon_Class span:nth-child(2){
+        display: none;
+
+    }
+.menu_icon_Class span:nth-child(2){
+    transform: rotate(40deg);
+}
+    .menu_icon span:nth-child(2){
+        margin: 4px 0;
+    }
+    .menuClass{
+        right: 0%;
+        transition: 0.5s ease-in-out;
+    }
+
+}
